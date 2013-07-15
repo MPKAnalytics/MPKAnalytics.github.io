@@ -3,7 +3,7 @@ description:      Transforming Data Into Insights Through the Power of R
 logo:             site-logo.png
 disqus_shortname: mpkanalytics
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://mmistakes.github.io/so-simple-theme
+url:              http://MPKAnalytics.github.com
 
 # Owner/author information
 owner:
