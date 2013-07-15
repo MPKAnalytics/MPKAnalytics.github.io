@@ -20,8 +20,7 @@
         <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
       <footer class="entry-meta">
-        <img src="{{ site.url }}/images/consulting.png" alt="R Consulting" class="author-photo">
-        Hello world!
+        {% if page.image.smallfeature %}<img src="{{ site.url }}/images/{{ page.image.smallfeature }}" alt="R Consulting" class="author-photo">{% endif %}
       </footer>
       <div class="entry-content">
         {{ content }}
