@@ -12,13 +12,21 @@
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
+<header class="masthead">
+	<div class="wrap">
+		<h1 class="site-title animated fadeIn"><a href="{{ site.url }}">{{ page.title }}</a></h1>
+		<h2 class="site-description animated fadeIn">{{ page.description }}</h2>
+	</div>
+</header><!-- /.masthead -->
+<p>
+
+
+
+</hr>
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
     <div class="entry-wrapper">
-      <header class="entry-header">
-        <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-      </header>
       <footer class="entry-meta">
         {% if page.image.smallfeature %}<img src="{{ site.url }}/images/{{ page.image.smallfeature }}" alt="R Consulting" class="author-photo">{% endif %}
       </footer>
