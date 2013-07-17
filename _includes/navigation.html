@@ -1,11 +1,21 @@
-<div class="navigation-wrapper">
-	<nav role="navigation" id="site-nav" class="animated fadeInDown" itemscope itemtype="http://schema.org/SiteNavigationElement">
-	    <ul>
-	        {% for link in site.links %}
-			<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}><b>{{ link.title }}</b></a></li>
-	        {% endfor %}
-	        <li><i class="icon-rss"></i> <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a>
-	    </ul>
-	</nav>
-</div><!-- /.navigation-wrapper -->
-
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html"><span class="color-highlight">MPK</span> Analytics</a>
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="about.html">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
