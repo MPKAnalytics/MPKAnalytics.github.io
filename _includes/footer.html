@@ -1,62 +1,5 @@
-<!-- Facebook follow button plugin code -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- End of Facebook follow button plugin code -->
-
-      <hr>
-		<footer class="row">
-			<div>
-				<div class="span4">
-					<div class="is-padded">
-						<nav>
-							<h2>Contact Us</h2>
-							<hr>
-						    <a href="mailto:info@mpkanalytics.com">info@mpkanalytics.com</a>
-						</nav>
-					</div>
-				</div>
-				<div class="span4">
-					<div class="is-padded">
-						<h2>Follow Us</h2>
-						<hr>
-						<ul>
-						  <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="MPKAnalytics" data-size="large">twitter</a></li>
-                          <li><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-						  <li><div class="fb-follow" data-href="https://www.facebook.com/mpkanalytics" data-layout="button_count" data-show-faces="true" data-font="lucida grande" data-width="450"></div></li>
-						  <li><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script></li>
-                          <li><script type="IN/FollowCompany" data-id="2602274" data-counter="right"></script></li>
-                          <li><iframe src="http://ghbtns.com/github-btn.html?user=mpkanalytics&type=follow&count=true "allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
-						</ul>
-						</hr>  
-					</div>
-				</div>
-				<div class="span4">
-					<div class="is-padded">
-				  <h2>Details</h2>
-						  <blockquote>Respond is a fully responsive website template utilizing Twitter's Bootstrap framework. 
-						  What does that mean? First of all, the website will respond according to the size of the 
-						  viewers browser window. Go on, try it out. Resize your window. On top of that, the framework 
-						  offers loads of ready-to-go features. Check it out with the button below.
-						  <br><br>
-						  <em>- AwfulMedia.com</em>
-						  </blockquote>
-					  </div>
-				</div>
-			</div>
-			<p>
-			&copy; 2012-{{ site.time | date: '%Y' }} MPK Analytics, Inc.<br>
-			</p>
-		</footer>
-
-<!-- Experimental code below -->
 <!--  Copied from https://bootsnipp.com/snipps/company-footer -->
-
+<hr>
 <div class="footer-well">	
 <div class="row-fluid">
 				<div class="span12">
@@ -118,7 +61,7 @@
 						<a href="#">Security</a>
 					</div>
 					<div class="span4">
-						<p class="muted pull-right">© 2013 Company Name. All rights reserved</p>
+						<p class="muted pull-right">&copy; {{ site.time | date: '%Y' }} MPK Analytics, Inc. All rights reserved</p>
 					</div>
 				</div>
 			</div>
