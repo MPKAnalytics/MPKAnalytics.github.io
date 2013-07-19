@@ -44,7 +44,7 @@
 
               <!-- Fourth feature image -->
               <div class="item">
-                <a href="{{ site.url }}/solutions.html" rel="nofollow"><img src="{{ site.url }}/img/featured/5.jpg" alt=""></a>
+                <img src="{{ site.url }}/img/featured/5.jpg" alt="">
                 <div class="carousel-caption">
                   <h4>R Solutions</h4>
                   <p>Development, deployment and maintenance of customized turn-key R programming solutions</p>
@@ -57,36 +57,7 @@
           </div>
 	<!--End Carousel-->
 	
-	<!-- Start social media links -->
-	<div class="span5 offset4">
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=112989545392380";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mpkanalytics.com" data-text="Transforming Data Into Insights Through the Power of R" data-via="mpkanalytics" data-related="mpkanalytics" data-hashtags="mpkanalytics">Tweet</a>
-		
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<a href="https://twitter.com/MPKAnalytics" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @MPKAnalytics</a>
-		
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		
-		<!-- Google + -->
-<g:plusone size="medium"></g:plusone>
- 
-<!-- Add this just before the closing body tag of your web page -->	
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-	</div>
-	<!-- End social media links -->
+{% include social_media.html %}
 	
 	<hr>
 	{{ content }}
