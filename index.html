@@ -67,6 +67,7 @@ Solutions: MPK Analytics can help you develop and deploy effective programming s
 	<h3><a href="#">This Should Be Your Title.</a></h3>
 	<p>This will be the description or something I guess. I don't know. Your choice.You could summarize something here. Keep it simple. Just a few short sentences. Maybe one large one? No, a few short ones.</p>
 </div>
+
 <div class="span6 thumb-list">
 	<a rel="lightbox[secondary]" href="img/thumb-small02.png"><img src="img/thumb-small02.png" alt="Thumbnail"></a>
 	<h3><a href="#">This Should Be Your Title.</a></h3>
@@ -74,15 +75,21 @@ Solutions: MPK Analytics can help you develop and deploy effective programming s
 	<a href="#" class="btn">Details</a>
 </div>
 </div>
+
 <div class="row">
-<div class="span6 thumb-list">
-	<a rel="lightbox[secondary]" href="img/thumb-small01.png"><img src="img/thumb-small01.png" alt="Thumbnail"></a>
-	<h3><a href="#">This Should Be Your Title.</a></h3>
-	<p>This will be the description or something I guess. I don't know. Your choice.</p>
-	<a href="#" class="btn">Details</a>
-</div>
-<div class="span6 thumb-list">
-	<a class="twitter-timeline" href="https://twitter.com/MPKAnalytics" data-widget-id="357598832068030464">Tweets by @MPKAnalytics</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
+	<div class="span6 thumb-list">
+	<div class="well">
+	<h1>Recent Blog Posts</h1>
+	{% for post in site.posts limit:10 %} 
+		<ul class="post-list">
+		  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+		</ul>
+	{% endfor %}
+	</div>
+	</div>
+
+	<div class="span6 thumb-list">
+		<a class="twitter-timeline" href="https://twitter.com/MPKAnalytics" data-widget-id="357598832068030464">Tweets by @MPKAnalytics</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
 </div>
