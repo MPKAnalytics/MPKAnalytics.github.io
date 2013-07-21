@@ -31,9 +31,9 @@ MPK Analytics is a private Edmonton-based company specializing in data analytics
 </div>
 
 
-
+<p class="lead">
 Consulting: MPK Analytics can help you understand and gain insight from your data using R.
-<p><a class="btn" href="{{ site.url}}/consulting/">More information &raquo;</a></p>
+<a class="btn" href="{{ site.url}}/consulting/">More information &raquo;</a></p>
 
 Solutions: MPK Analytics can help you develop and deploy effective programming solutions in R.
 <p><a class="btn" href="{{ site.url }}/solutions/">More information &raquo;</a></p>
@@ -82,14 +82,17 @@ Solutions: MPK Analytics can help you develop and deploy effective programming s
 	<h1>Recent Blog Posts</h1>
 	{% for post in site.posts limit:10 %} 
 		<ul class="post-list">
-		  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+		  <li><p class="lead"><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></p></li>
 		</ul>
 	{% endfor %}
 	</div>
 	</div>
 
 	<div class="span6 thumb-list">
-		<a class="twitter-timeline" href="https://twitter.com/MPKAnalytics" data-widget-id="357598832068030464">Tweets by @MPKAnalytics</a>
+	<div class="well">
+	<h1>Recent Tweets</h1>
+		<a class="twitter-timeline" href="https://twitter.com/MPKAnalytics" data-widget-id="357598832068030464" data-chrome="noheader nofooter noborders transparent">Tweets by @MPKAnalytics</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
 	</div>
 </div>
