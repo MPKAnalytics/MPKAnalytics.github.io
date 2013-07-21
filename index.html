@@ -5,90 +5,54 @@ description: "Transforming Data Into Insights Through the Power of R "
 tags: [R]
 ---
 <div class="row">
-  <div class="span4">
-  	<img src="img/map.png" alt=""></a>
-  </div>
-  <div class="span4">
-MPK Analytics is a private Edmonton-based company specializing in data analytics, 	programming solutions and training using R, a state-of-the-art open-source programming language and software environment for statistical computing and graphics. Our expertise lies in harnessing the flexibility, versatility and power of R to transform data into insights and developing turn-key programming solutions to clients in a wide range of industries.
-  </div>
+  <div class="span12">
+    <div class="well">
+      <p class="lead">
+We are pioneers inspired to help change the world by developing and supporting advanced analytics using R － a state of the art open source software for computational statistics and visualization.
+      </p>
+      <p class="lead">
+We have over a decade of research and analytics experience in a wide range of disciplines, including: agriculture, life sciences, demography, environmental sciences, epidemiology, forestry, healthcare and health sciences, transport. 
+      </p>
+   </div>
+</div>
+  
   <div class="span4">
     <div class="well">
-      	MPK Analytics has expertise in a wide range of disciplines, including:
-		<ul>
-		<li>Agriculture</li>
-		<li>Life sciences</li>
-		<li>Education</li>
-		<li>Demography</li>
-		<li>Energy, oil and gas</li>
-		<li>Environmental sciences</li>
-		<li>Epidemiology</li>
-		<li>Forestry</li>
-		<li>Healthcare and health sciences</li>
-		<li>Transport</li>
-		</ul>
-	</div>
+      <h1>R Consulting</h1>
+      ...
+    </div>
+  </div>
+
+  <div class="span4">
+    <div class="well">
+      <h1>R Solutions</h1>
+      ...
+    </div>
+    </div>
+    
+      <div class="span4">
+    <div class="well">
+      <h1>Contact Us</h1>
+      		Contact MPK Analytics for your next analytics project <a class="btn" href="{{ site.url}}/contactg/">Contact Us &raquo;</a>
+    </div>
   </div>
 </div>
 
-
-<p class="lead">
-Consulting: MPK Analytics can help you understand and gain insight from your data using R.
-<a class="btn" href="{{ site.url}}/consulting/">More information &raquo;</a></p>
-
-Solutions: MPK Analytics can help you develop and deploy effective programming solutions in R.
-<p><a class="btn" href="{{ site.url }}/solutions/">More information &raquo;</a></p>
-
 <div class="row">
-<div class="span4">
-	<h3>Deep Sky<small> By <a href="http://commons.wikimedia.org/wiki/File:Nature_1.jpg">Srawat56</a></small></h3>
-	<a rel="lightbox" href="img/thumb1.jpg"><img src="img/thumb1.jpg" alt="Thumbnail"></a>
-</div>
-<div class="span4">
-	<h3>Nature's Valley<small> By <a href="http://commons.wikimedia.org/wiki/File:Nature%27s_Valley_(S._Africa)_2.jpg">Paul venter</a></small></h3>
-	<a rel="lightbox" href="img/thumb2.jpg"><img src="img/thumb2.jpg" alt="Thumbnail"></a>
-</div>
-<div class="span4">
-  <h3>Details</h3>
-	  <blockquote>Respond is a fully responsive website template utilizing Twitter's Bootstrap framework. 
-	  What does that mean? First of all, the website will respond according to the size of the 
-	  viewers browser window. Go on, try it out. Resize your window. On top of that, the framework 
-	  offers loads of ready-to-go features. Check it out with the button below.
-	  <br><br>
-	  <em>- Oswt.co.uk</em>
-	  </blockquote>
-  <p><a class="btn" href="http://twitter.github.com/bootstrap/">All Features &raquo;</a></p>
-</div>
-</div>
-<!--Start second row of columns-->
-<hr>
-<div class="row">
-<div class="span6 thumb-list">
-	<a rel="lightbox[secondary]" href="img/thumb-small01.png"><img src="img/thumb-small01.png" alt="Thumbnail"></a>
-	<h3><a href="#">This Should Be Your Title.</a></h3>
-	<p>This will be the description or something I guess. I don't know. Your choice.You could summarize something here. Keep it simple. Just a few short sentences. Maybe one large one? No, a few short ones.</p>
-</div>
-
-<div class="span6 thumb-list">
-	<a rel="lightbox[secondary]" href="img/thumb-small02.png"><img src="img/thumb-small02.png" alt="Thumbnail"></a>
-	<h3><a href="#">This Should Be Your Title.</a></h3>
-	<p>This will be the description or something I guess. I don't know. Your choice.</p>
-	<a href="#" class="btn">Details</a>
-</div>
-</div>
-
-<div class="row">
-	<div class="span6 thumb-list">
-	<div class="well">
+  <div class="span6">
+  	<div class="well">
 	<h1>Recent Blog Posts</h1>
 	{% for post in site.posts limit:10 %} 
 		<ul class="post-list">
-		  <li><p class="lead"><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></p></li>
+		  <li><p class="lead"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} (<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>)</a><br>{{ post.description }}</p></li>
 		</ul>
 	{% endfor %}
 	</div>
-	</div>
+  </div>
 
-	<div class="span6 thumb-list">
+
+
+	<div class="span6">
 	<div class="well">
 	<h1>Recent Tweets</h1>
 		<a class="twitter-timeline" href="https://twitter.com/MPKAnalytics" data-widget-id="357598832068030464" data-chrome="noheader nofooter noborders transparent">Tweets by @MPKAnalytics</a>
