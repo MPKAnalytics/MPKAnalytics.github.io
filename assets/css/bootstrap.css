@@ -195,6 +195,7 @@ a:hover {
 }
 
 .container,
+.navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
@@ -3571,9 +3572,9 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar {
-  *position: relative;
+  *position: visible;
   *z-index: 2;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   overflow: visible;
 }
 
@@ -3803,9 +3804,8 @@ input[type="submit"].btn.btn-mini {
   font-size: 18px;
   line-height: 19px;
   margin-left: 20px;
-  color: #999999;
+  color: #000000;
   border: none;
-  background-image: url("../../img/color.jpg");
   background-size: 100%;
   background-position: -200px -10px;
   background-repeat: no-repeat;
@@ -3815,7 +3815,7 @@ input[type="submit"].btn.btn-mini {
   -o-transition: background-position .5s ease, color .8s ease;
 }
 .navbar .nav > li > a:hover {
-  color: #fff;
+  color: #00f;
   background-position: 0 0;
   text-decoration: none;
   background-color: transparent;
