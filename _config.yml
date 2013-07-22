@@ -2,6 +2,7 @@ title:            MPK Analytics
 description:      Transforming Data Into Insights Through the Power of R
 logo:             site-logo.png
 disqus_shortname: mpkanalytics
+
 #Comment out url when working locally to resolve base urls correctly
 url:              http://mpkanalytics.github.io
 
@@ -10,6 +11,7 @@ owner:
   name:           Mario Pineda
   avatar:         bio-photo.jpg
   email:          mpineda@mpkanalytics.com
+  
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "mpkanalytics"
   facebook:       "mpkanalytics"
@@ -37,7 +39,7 @@ links:
     url: /about
   - title: Blog
     url: /blog
-  - title: Contact
+  - title: Contact Us
     url: /contact    
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
