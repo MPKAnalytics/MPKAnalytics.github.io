@@ -5,17 +5,27 @@ title: Contact
 description: "Transforming Data Into Insights Through the Power of R "
 tags: [R]
 ---
+<h1>Contact Us</h1>
 <div class="row">
 <div class="span8">	
   <form action="http://getsimpleform.com/messages?form_api_token=1a5d0b00e9cc71a8d5859e5fe125e306" method="post" class="well">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <h1>Contact Us</h1>
+  <div class="lead">
+Need more information about our services? We encourage you to complete the form below if you would like to learn more about MPK Analytics and how we can meet your analytics needs.
+  </div>
 	  <input type='hidden' name='redirect_to' value='{{site.url}}/thankyou.html>' >
 	  <!-- all your input fields here.... -->
 	  <input type="text" class="span4" name="FirstName" placeholder="First name"><br>
 	  <input type="text" class="span4" name="LastName" placeholder="Last name"><br>
-	  <input type="email" class="span4" name="Email" placeholder="Email"><br>
-	  <input type="text" class="span4" name="Subject" placeholder="Subject"><br>
+	  <input type="email" class="span4" name="Email Address" placeholder="Email"><br>
+	  <input type="text" class="span4" name="PhoneNumber" placeholder="Phone Number"><br>
+	  <input type="text" class="span4" name="Company" placeholder="Company"><br>
+	  
+	  Preferred contact method: <select class="span4" name="ContactPreference" placeholder="Prefered contact method">
+<option value="Email">Email</option>
+<option value="Phone">Phone</option>
+</select><br>
+	  
 	  <textarea class="span7" name="Message" placeholder="Message"></textarea><br>
 	  <button type="submit" class="btn">Send</button>
   </form>
