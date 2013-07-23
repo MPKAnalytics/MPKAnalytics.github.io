@@ -6,7 +6,7 @@ modified: 2012-08-24
 category: articles
 tags: [R]
 image:
-  feature: post_images/image1.png
+  feature: /post_images/image1.jpg
 comments: true  
 ---
 
@@ -15,5 +15,3 @@ Welcome to the blog of MPK Analytics - the consulting and training company whos
 Data is permeating our world and influencing all aspects of our society and lives. This ever-increasing volume and complexity of data has resulted in rapid growth of data analytics, the systematic computational extraction of knowledge and insight from data. At the forefront of this development is R, which has emerged as a de facto standard among statisticians for the development of statistical software and among analysts for the analysis and visualization of large and complex data sets.
 
 This blog is the clearinghouse for all things related to R and analytics, particularly any topic that falls at the interface.
-
-{% include signature %}
