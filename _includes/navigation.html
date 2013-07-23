@@ -20,7 +20,7 @@
 
 	  <div class="nav-collapse">
 		<ul class="nav pull-right">
-		<a href="{{ site.url}}"><img src="{{ site.url }}/img/logo.png"></a>
+		<a href="{{ site.url}}"><img src="{{ site.url }}/img/logo.png" ></a>
 		{% for link in site.links %}
 			<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 	        {% endfor %}
