@@ -4,7 +4,7 @@ title: MPK Analytics will attend, tweet and blog the Cyber Summit in Banff
 description: "MPK Analytics will be attending the Cybera Cyber Summit on October 1-3 at the Banff Centre in the beautiful Canadian Rockies."
 modified: 2012-09-14
 category: articles
-tags: [R]
+tags: [Banff Centre, Pecha Kucha, Social Media]
 image:
   feature: /post_images/image1.jpg
 comments: true  
