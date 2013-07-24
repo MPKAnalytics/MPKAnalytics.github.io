@@ -3,7 +3,7 @@ layout: post
 title: Start your new relationship with data together with Roger Peng and 30000 other students
 description: "MPK Analytics will be attending the Cybera Cyber Summit on October 1-3 at the Banff Centre in the beautiful Canadian Rockies."
 modified: 2012-09-17
-category: Event, R, Statistics
+category: articles
 tags: [Coursera, Data Analysis, Education, Johns Hopkins Bloomberg School of Public Health, Roger D. Peng, Statistics]
 image:
   feature: /post_images/image1.jpg
@@ -15,4 +15,4 @@ The aim of this course is to cover the fundamental computing skills necessary fo
 
 Since the class is online I assume that it cannot get full (at least not in theory). In an email today from Roger, so far, 30000 students have enrolled in the course. This speaks for itself. Data analytics with R is not only in vogue but is also the tool of the choice for the next generation of data analysts. So, if you have ever contemplated about getting into R, if you are a R newbie or even a R guru, why don't you join me and 30000-some other students in this remarkable opportunity to start a new relationship (or get a novel perspective to an existing relationship) with data, data analytics and R under the guidance of one of the masters of the trade.
 
-[youtube=http://youtu.be/gk6E57H6mTs]
+<iframe width="560" height="315" src="http://youtu.be/gk6E57H6mTs" frameborder="0"> </iframe>
