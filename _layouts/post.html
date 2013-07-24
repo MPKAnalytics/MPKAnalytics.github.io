@@ -20,14 +20,26 @@
           <div class="well">
             <header>
               Tags:
-              {% for tag in page.tags %} <a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}
-              <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+              <h1 class="entry-title" itemprop="headline">
+              {% if page.headline %}
+                {{ page.headline }}
+              {% else %}
+                {{ page.title }}
+              {% endif %}</h1>
             </header>
             <div>
               <em>By <a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></em>
               <em><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}</time></span></em>
               <em>{% if site.disqus_shortname and page.comments %}<span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}</em>
               <em><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></em>
+            </div>
+            <div>
+              {% for tag in page.tags %} 
+                <a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
+                {% unless forloop.last %} 
+                  &bull; 
+                {% endunless %}
+              {% endfor %}
             </div>
             <hr>
             <div class="entry-content">
