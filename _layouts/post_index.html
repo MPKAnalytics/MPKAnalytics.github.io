@@ -22,6 +22,7 @@
             <hr>
             {% for post in site.posts %}  
               <article>
+               <img src="/img/{{ post.image.feature }}">
                 <h3><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h3>
                 <div class="muted">
                   <em>Published on {{ post.date | date: "%B %d, %Y" }}; </em>
