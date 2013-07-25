@@ -69,8 +69,8 @@ We have over a decade of research and analytics experience in a wide range of di
   	<div class="well">
 	<h1>Recent Blog Posts</h1>
 	<div style="height:15px"></div>
-	{% for post in site.posts limit:10 %} 
-	  <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+	{% for post in site.posts limit:5 %} 
+	  <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
 	  <p>{{ post.description }}</p>
 	  <hr>
 	{% endfor %}
