@@ -30,8 +30,7 @@
                   {% endif %}
                 </div> <!-- muted -->
                 <div class="lead">
-                    {{ post.content | strip_html | strip_newlines | truncatewords: 40 }}
-                    <a href="{{ site.url }}{{ post.url }}">&raquo; Continue Reading</a>
+                    {{ post.description }}
                 </div>
               </article>
             {% endfor %}
