@@ -7,9 +7,9 @@ tags: [R]
 <div class="row">
   <div class="span12">
     <div class="well">
-      <p class="lead">
+      <p>
 MPK Analytics is a small Edmonton-based company specializing in data analytics, programming solutions and training using R, a state-of-the-art open-source programming language and software environment for statistical computing and graphics. Our expertise and focus lies in harnessing the flexibility, versatility and power of R to transform data into insights and developing turn-key programming solutions to clients in a wide range of industries.</p>
-      <p class="lead">
+      <p>
 We have over a decade of research and analytics experience in a wide range of disciplines, including: agriculture, life sciences, demography, environmental sciences, epidemiology, forestry, healthcare and health sciences, transport. 
       </p>
    </div>
@@ -22,9 +22,10 @@ We have over a decade of research and analytics experience in a wide range of di
         <div style="height:15px"></div>
         <h1>R Consulting</h1>
         <div style="height:15px"></div>
-        <div class="lead">
+        <div>
           We can help you understand and gain insight into your data using state-of-the art analytics. 
         </div>
+        <div style="height:15px"></div>
         <a class="btn" href="{{ site.url}}/consulting/">Find out more &raquo;</a>
       </div>
     </div>
@@ -37,9 +38,10 @@ We have over a decade of research and analytics experience in a wide range of di
         <div style="height:15px"></div>
         <h1>R Solutions</h1>
         <div style="height:15px"></div>
-        <div class="lead">
+        <div>
           We can help you develop, deploy and maintain effective analytics solutions in R.
         </div>
+        <div style="height:15px"></div>
         <a class="btn" href="{{ site.url}}/solutions/">Find out more &raquo;</a>
       </div>
     </div>
@@ -52,9 +54,10 @@ We have over a decade of research and analytics experience in a wide range of di
         <div style="height:15px"></div>
         <h1>Contact Us</h1>
         <div style="height:15px"></div>
-        <div class="lead">
+        <div>
           Contact us to find out how we can lab take your next analytics project to the next level 
         </div>
+        <div style="height:15px"></div>
         <a class="btn" href="{{ site.url}}/contact/">Contact Us &raquo;</a>
       </div>
     </div>
@@ -67,7 +70,7 @@ We have over a decade of research and analytics experience in a wide range of di
 	<h1>Recent Blog Posts</h1>
 	{% for post in site.posts limit:10 %} 
 		<ul class="post-list">
-		  <li><p class="lead"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} (<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>)</a><br>{{ post.description }}</p></li>
+		  <li><p><a href="{{ site.url }}{{ post.url }}">{{ post.title }} (<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>)</a><br>{{ post.description }}</p></li>
 		</ul>
 	{% endfor %}
 	</div>
