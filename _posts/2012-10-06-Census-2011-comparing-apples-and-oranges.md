@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Census 2011: comparing apples and oranges
+title: Census 2011 - comparing apples and oranges
 description: "Anyone following Canadian news could hardly have missed the release of the results from the 2011 national census by Statistics Canada this week."
 modified: 2012-10-06
 category: articles
