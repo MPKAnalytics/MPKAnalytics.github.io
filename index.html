@@ -66,16 +66,8 @@ We have over a decade of research and analytics experience in a wide range of di
 
 <div class="row">
   <div class="span6">
-  	<div class="well">
-	<h1>Recent Blog Posts</h1>
-	<div style="height:15px"></div>
-	{% for post in site.posts limit:5 %} 
-	  <strong><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></strong>
-	  <p>{{ post.description }}</p>
-	  <hr>
-	{% endfor %}
-	</div>
-  </div>
+    {% include recent_blog_posts.html %}
+  </div> <!-- span6 -->
 
 	<div class="span6">
 	<div class="well">

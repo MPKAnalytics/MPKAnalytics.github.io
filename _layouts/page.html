@@ -19,15 +19,7 @@
 		</div> 
       </div>
 	  <div class="span4">
-	    <div class="well">
-	      <h1>Recent Blog Posts</h1>
-	      <hr>
-	      {% for post in site.posts limit:10 %} 
-		    <ul class="post-list">
-		      <li><p class="lead"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} (<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>)</a><br>{{ post.description }}</p></li>
-		    </ul>
-	      {% endfor %}
-        </div> <!-- well -->	
+	    {% include recent_blog_posts.html %}	
 	    <div class="well">
 	      <h1>Recent Tweets</h1>
 	      <hr>

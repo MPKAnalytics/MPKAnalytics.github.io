@@ -28,10 +28,7 @@
                <img src="/img/{{ post.image.feature }}">
                 <h3><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h3>
                 <div class="muted">
-                  <em>Published on {{ post.date | date: "%B %d, %Y" }}; </em>
-                  {% if site.disqus_shortname and post.comments %}
-                    <em><a href="{{ site.url }}{{ post.url }}/#disqus_thread">Number of comments:</a></em>
-                  {% endif %}
+                  <p><small><em>Published on {{ post.date | date: "%B %d, %Y" }}; <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a><em></small></p>
                 </div> <!-- muted -->
                 <div class="lead">
                     {{ post.description }}

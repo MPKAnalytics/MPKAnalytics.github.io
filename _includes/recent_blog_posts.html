@@ -1,0 +1,10 @@
+<div class="well">
+      <h1>Recent Blog Posts</h1>
+      <div style="height:15px"></div>
+      {% for post in site.posts limit:5 %} 
+        <strong><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></strong><br>
+        <p><small><em>Published on {{ post.date | date: "%B %d, %Y" }}; <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a><em></small></p>
+        <p>{{ post.description }}</p>
+        <hr>
+      {% endfor %}
+    </div> <!-- well -->
