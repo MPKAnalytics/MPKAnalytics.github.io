@@ -3,7 +3,7 @@
       <hr>
       {% for post in site.posts limit:5 %} 
         <strong><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></strong><br>
-        <p><small><em>{{ post.date | date: "%B %d, %Y" }}; <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a><em></small></p>
+        <p><small><em>{{ post.date | date: "%B %d, %Y" }}; <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a></em></small></p>
         <p>{{ post.description }}</p>
         <div style="height:15px"></div>
       {% endfor %}
