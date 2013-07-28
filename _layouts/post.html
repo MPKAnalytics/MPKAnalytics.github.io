@@ -17,42 +17,36 @@
     <div class="container">
       <div class="row">
         <div class="span8">
-          <div class="well">
-            <header>
-              <h1 class="entry-title" itemprop="headline">
-              {% if page.headline %}
-                {{ page.headline }}
-              {% else %}
-                {{ page.title }}
-              {% endif %}</h1>
-            </header>
-            <div>
-              <p>
-                <small>
-                  <em>
-                    Published on {{ page.date | date: "%B %d, %Y" }}; 
-                    <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a>; 
-                    <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">Permalink</a><br>
-                    Tags:
-                    {% for tag in page.tags %} 
-                      <a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
-                      {% unless forloop.last %} 
-                        &bull; 
-                      {% endunless %}
-                    {% endfor %}
-                  </em>
-                </small>
-              </p>
-            </div>
-            <hr>
-            <div class="entry-content">
-              <div class="lead">
-                {{ content }}
-              </div>
-              {% include signature.html %}
-              {% if site.disqus_shortname and page.comments %}{% include comments.html %}<!-- /#disqus_thread -->{% endif %}
-            </div><!-- /.entry-content -->
-          </div><!-- well -->
+          <h1>MPK Analytics Blog</h1>
+          <hr>
+          <h2>{{ page.title }}</h2>
+          <div>
+            <p>
+            <small>
+            <em>
+              Published on {{ page.date | date: "%B %d, %Y" }}; 
+              <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a>; 
+              <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">Permalink</a><br>
+              Tags:
+              {% for tag in page.tags %} 
+                <a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
+                {% unless forloop.last %} 
+                  &bull; 
+                {% endunless %}
+              {% endfor %}
+            </em>
+            </small>
+            </p>
+          </div>
+            
+          <div class="entry-content">
+            <div class="lead">
+              {{ content }}
+            </div> <!-- lead -->
+            {% include signature.html %}
+            {% if site.disqus_shortname and page.comments %}{% include comments.html %}<!-- /#disqus_thread -->{% endif %}
+          </div><!-- /.entry-content -->
+          
           <nav class="pagination" role="navigation">
             {% if page.previous %}
               <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
@@ -65,7 +59,7 @@
 
         <div class="span4">
           {% include recent_blog_posts.html %}
-          <div class="well">
+          <div>
             <h1>Recent Tweets</h1>
             <hr>
             <a class="twitter-timeline" href="https://twitter.com/MPKAnalytics" data-widget-id="357598832068030464" data-chrome="noheader nofooter noborders transparent">Tweets by @MPKAnalytics</a>
