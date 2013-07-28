@@ -5,6 +5,16 @@
   </head>
   <body>
     {% include navigation.html %}
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+    {% include navigation.html %}
+    
+    <header>
+      <div class="container">
+        <img src="{{ site.url }}/img/{{ page.image.feature }}" class="img-circle">
+      </div>
+    </header>
+    
     <div class="container">
       <div class="row">
         <div class="span12">
