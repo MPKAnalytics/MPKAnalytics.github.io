@@ -3613,20 +3613,14 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 16px 20px 12px;
+  padding: 10px 10px 10px;
   margin-left: -20px;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: 200;
-  line-height: 1;
-  color: #c5bfb3;
-  opacity: 0.6;
-  font-family: 'Lato', sans-serif;
-  -webkit-transition: opacity .3s linear;
-  -webkit-transition: opacity .3s linear;
-  -moz-transition: opacity .3s linear;
-  transition: opacity .3s linear;
-  
+  color: #777777;
+  text-shadow: 0 1px 0 #ffffff;
 }
+
 .navbar .brand:hover {
   text-decoration: none;
   opacity: 1;
@@ -5406,3 +5400,10 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   border-radius: 6px;
 }
 
+.navbar .brand, .navbar .nav > li > a {
+    color: #D64848;
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #F56E6E;
+    text-decoration: underline;
+}
