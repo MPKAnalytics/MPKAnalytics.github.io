@@ -5,7 +5,7 @@
   </head>
   <body>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     {% include navigation.html %}
     
     <header>
@@ -18,7 +18,7 @@
     <div id="myCarousel" class="carousel slide">
      <div class="carousel-inner">
        <div class="item active">
-         <img src="{{ site.url }}/img/featured/floor.jpg">
+         <img src="/img/featured/floor.jpg">
          <div class="container">
            <div class="carousel-caption">
              <h1>{{ page.title }}</h1>
@@ -38,10 +38,10 @@
             {% for post in site.posts %}  
             <div>
               <article>
-               <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><img src="/img/{{ post.image.feature }}"></a>
-                <h3><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h3>
+               <a href="/{{ post.url }}" rel="bookmark" title="{{ post.title }}"><img src="/img/{{ post.image.feature }}"></a>
+                <h3><a href="/{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h3>
                 <div class="muted">
-                  <p><small><em>Published on {{ post.date | date: "%B %d, %Y" }}; <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a></em></small></p>
+                  <p><small><em>Published on {{ post.date | date: "%B %d, %Y" }}; <a href="/{{ post.url }}#disqus_thread"></a></em></small></p>
                 </div> <!-- muted -->
                 <div class="lead">
                     {{ post.description }}
