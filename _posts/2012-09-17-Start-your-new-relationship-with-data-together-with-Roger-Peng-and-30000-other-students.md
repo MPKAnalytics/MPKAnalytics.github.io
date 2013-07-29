@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start your new relationship with data together with Roger Peng and 30000 other students
-description: "MPK Analytics will be attending the Cybera Cyber Summit on October 1-3 at the Banff Centre in the beautiful Canadian Rockies."
+description: "Coursera,is launching their online course Computing for Data Analysis by Professor Roger D. Peng of the Johns Hopkins Bloomberg School of Public Health"
 modified: 2012-09-17
 category: blog
 tags: [Coursera, Data Analysis, Education, Johns Hopkins Bloomberg School of Public Health, Roger D. Peng, Statistics]
