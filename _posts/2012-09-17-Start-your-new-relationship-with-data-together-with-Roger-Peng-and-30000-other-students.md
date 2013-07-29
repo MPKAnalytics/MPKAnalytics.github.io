@@ -3,7 +3,7 @@ layout: post
 title: Start your new relationship with data together with Roger Peng and 30000 other students
 description: "MPK Analytics will be attending the Cybera Cyber Summit on October 1-3 at the Banff Centre in the beautiful Canadian Rockies."
 modified: 2012-09-17
-category: articles
+category: blog
 tags: [Coursera, Data Analysis, Education, Johns Hopkins Bloomberg School of Public Health, Roger D. Peng, Statistics]
 image:
   feature: /post_images/image1.jpg
