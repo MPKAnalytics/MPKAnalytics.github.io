@@ -6,7 +6,7 @@ modified: 2012-08-24
 category: blog
 tags: [R]
 image:
-  feature: /post_images/image1.jpg
+  feature: /post_images/mpb.jpg
 comments: true  
 ---
 Welcome to the blog of MPK Analytics - the consulting and training company whose mission it is to help clients in academia, industry and government to transform their data into insight using the power of R. MPK Analytics started as an idea. A simple idea to harness R, the most powerful and versatile software environment for statistical programming and graphics, to analyze, visualizes and report real-world data. The company started as a way to serve clients globally from a wide range of industries that are passionate about data, transparent and reproducible analytics, gorgeous visualizations, R, and open source.

@@ -6,7 +6,7 @@ modified: 2012-09-17
 category: blog
 tags: [Coursera, Data Analysis, Education, Johns Hopkins Bloomberg School of Public Health, Roger D. Peng, Statistics]
 image:
-  feature: /post_images/image1.jpg
+  feature: /post_images/coursera.jpg
 comments: true  
 ---
 A week from today (on September 24) <a href="https://www.coursera.org">Coursera</a>,  an education technology company committed to making education freely available to any person who seeks it, is launching their online course "<a href="https://www.coursera.org/course/compdata">Computing for Data Analysis</a>" by <a href="http://www.biostat.jhsph.edu/~rpeng/">Professor Roger D. Peng</a> of the <a href="http://www.jhsph.edu">Johns Hopkins Bloomberg School of Public Health</a>.

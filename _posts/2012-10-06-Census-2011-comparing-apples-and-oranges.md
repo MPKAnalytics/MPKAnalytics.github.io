@@ -6,7 +6,7 @@ modified: 2012-10-06
 category: blog
 tags: [Canada 2011 Census, Census, Chief Statistician of Canada, Munir Sheikh, Statistics Canada]
 image:
-  feature: /post_images/image1.jpg
+  feature: /post_images/apples_oranges.jpg
 comments: true   
 ---
 Anyone following Canadian news could hardly have missed the <a href="http://www12.statcan.gc.ca/census-recensement/index-eng.cfm">release of the results from the 2011 national census by Statistics Canada</a> this week. The findings of this census have been (and still are) reported extensively by the Canadian media, e.g. <a href="http://www.cbc.ca/news/canada/story/2012/09/19/census-data-families-households.html">here</a>, <a href="http://www.cbc.ca/news/interactives/cp-census/index-sept-highlights.html">here</a>, <a href="http://news.nationalpost.com/tag/census-canada-2011/">here</a>, <a href="http://www.theglobeandmail.com/news/politics/take-the-2011-census-family-quiz/article4553429/">here</a> and (of course) on <a href="https://twitter.com/i/#!/search/?q=%232011Census&amp;src=hash">twitter</a>.
