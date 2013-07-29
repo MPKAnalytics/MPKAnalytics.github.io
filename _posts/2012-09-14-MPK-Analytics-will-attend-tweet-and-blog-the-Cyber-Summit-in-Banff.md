@@ -6,7 +6,7 @@ modified: 2012-09-14
 category: articles
 tags: [Banff Centre, Pecha Kucha, Social Media]
 image:
-  feature: /post_images/image1.jpg
+  feature: /post_images/cyber_summit_2013.jpg
 comments: true  
 ---
 MPK Analytics will be attending the <a href="http://www.cybera.ca">Cybera</a> <a href="http://www.cybera.ca/summit2012">Cyber Summit</a> on October 1-3 at the Banff Centre in the beautiful Canadian Rockies. This event, with the tag line <em>Leading the Way in the Age of Big Data</em> is designed to appeal to the growing technology and innovation community in western Canada, with a mix of general and technical speakers and sessions. Sessions include presentations on <a href="http://www.cybera.ca/summit2012/schedule/opening-plenary">data as the  next oil</a>, <a href="http://www.cybera.ca/summit2012/schedule/raw-data-refineries">raw data refineries</a>, <a href="http://www.cybera.ca/summit2012/schedule/big-data-healthcare">big data in health care</a>, and much more.
