@@ -4,7 +4,8 @@ logo:             site-logo.png
 disqus_shortname: mpkanalytics
 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mpkanalytics.github.io
+#url:              http://mpkanalytics.github.io
+url:               www.mpkanalytics.com
 
 # Owner/author information
 owner:
