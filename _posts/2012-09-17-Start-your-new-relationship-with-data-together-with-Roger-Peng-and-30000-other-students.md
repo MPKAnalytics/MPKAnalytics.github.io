@@ -3,7 +3,7 @@ layout: post
 title: Start your new relationship with data together with Roger Peng and 30000 other students
 description: "Coursera,is launching their online course Computing for Data Analysis by Professor Roger D. Peng of the Johns Hopkins Bloomberg School of Public Health"
 modified: 2012-09-17
-category: blog
+category: R
 tags: [Coursera, Data Analysis, Education, Johns Hopkins Bloomberg School of Public Health, Roger D. Peng, Statistics]
 image:
   feature: /post_images/coursera.jpg
