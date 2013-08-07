@@ -4935,9 +4935,9 @@ a.badge:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 10px 15px 5px;
-  background: #333333;
-  background: rgba(0, 0, 0, 1);
+  padding: 15px 15px 0px;
+  background: #ffffff;
+  background: rgba(f, f, f, .5);
 }
 
 .carousel-caption h4,
