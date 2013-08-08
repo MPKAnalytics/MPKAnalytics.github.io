@@ -14,4 +14,4 @@ git commit -m "$1"
 
 echo "Committing site map..."
 git add sitemap.xml
-git commit "Updated sitemap"
+git commit -m "Updated sitemap"
