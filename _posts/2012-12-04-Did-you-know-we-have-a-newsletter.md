@@ -4,7 +4,6 @@ title: Did you know we have a newsletter?
 description: "Introducing the MPK Analytics Newsletter"
 modified: 2012-12-04
 category: news
-tags:
 image:
   feature: /post_images/erug-skyline.png
 comments: true  

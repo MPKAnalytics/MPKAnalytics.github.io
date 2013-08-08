@@ -4,7 +4,6 @@ title: Happy International Year of Statistics
 description: "Introducing the MPK Analytics Newsletter"
 modified: 2013-01-01
 category: statistics
-tags:
 image:
   feature: /post_images/feature-stat2013poster.jpg
 comments: true  

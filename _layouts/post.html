@@ -26,9 +26,9 @@
               Published on {{ page.date | date: "%B %d, %Y" }}; 
               <a href="/{{ page.url }}#disqus_thread"></a>; 
               <a href="/{{ page.url }}" rel="bookmark" title="{{ page.title }}">Permalink</a><br>
-              Tags:
-              {% for tag in page.tags %} 
-                <a href="/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
+              Category:
+              {% for category in page.category %} 
+                <a href="/category/#{{ category | cgi_encode }}" title="Page categories {{ category }}" rel="category">{{ category }}</a>
                 {% unless forloop.last %} 
                   &bull; 
                 {% endunless %}

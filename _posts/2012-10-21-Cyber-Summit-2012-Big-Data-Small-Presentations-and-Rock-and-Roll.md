@@ -4,7 +4,6 @@ title: Cyber Summit 2012 - Big Data, Small Presentations and Rock and Roll
 description: "The 2012 Cybera Cyber Summit in a nutshell."
 modified: 2012-10-21
 category: meetings
-tags:
 image:
   feature: /post_images/wordcloud.jpg
 comments: true  

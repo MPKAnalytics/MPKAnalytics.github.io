@@ -4,7 +4,6 @@ title: Edmonton R User Group is going live
 description: "Walking in the footsteps of other RUGs, new Northerly R User Group formed."
 modified: 2012-10-30
 category: R
-tags:
 image:
   feature: /post_images/erug-skyline.png
 comments: true  
