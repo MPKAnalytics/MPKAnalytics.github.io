@@ -1,7 +1,5 @@
 #!/bin/sh
 
-./sitemap.pl
-
 if [ $# == 0 ]
 then
 	echo "Missing commit message - exiting!"
@@ -12,6 +10,7 @@ echo "Committing..."
 git add .
 git commit -m "$1"
 
-echo "Committing site map..."
+./sitemap.pl
+
 git add sitemap.xml
 git commit -m "Updated sitemap"
