@@ -1,5 +1,7 @@
 #!/bin/sh
 
+./sitemap.pl
+
 if [ $# == 0 ]
 then
 	echo "Missing commit message - exiting!"
