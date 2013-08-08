@@ -4,7 +4,6 @@ title: MPK Analytics - putting the R into analytics
 description: "MPK Analytics - Transforming data into insights through the power of R"
 modified: 2012-08-24
 category: R
-tags: [R]
 image:
   feature: /post_images/mpb.jpg
 comments: true  

@@ -6,7 +6,7 @@ modified: 2013-01-01
 category: statistics
 tags:
 image:
-  feature: /post_images/erug-skyline.png
+  feature: /post_images/feature-stat2013poster.jpg
 comments: true  
 ---
 2013 promises to be a great year for all statistics aficionado as today is the first day of the <a href="http://www.statistics2013.org">International Year of Statistics</a>. More than 1400 organizations from 108 countries — professional statistical societies, colleges and universities, primary and secondary schools, businesses, government entities, and research institutes — are participating in this worldwide event. Statistics have powerful and far-reaching effects on everyone, yet most people are unaware of their connection and how statistics improve their lives, whether it is the availability and quality of foods they eat to the benefits and risks of the medicines they take, statistics is all around. Sports would be a lot less interesting without statistics.
