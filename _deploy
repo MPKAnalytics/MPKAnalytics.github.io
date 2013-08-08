@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ $# == 0 ]
+then
+	echo "Missing commit message - exiting!"
+	exit
+fi
+
+echo "Committing..."
+git add .
+git commit -m "$1"
