@@ -12,4 +12,4 @@ comments: true
 
 We are hoping that the Edmonton R User Group will follow in the footsteps of <a href="http://blog.revolutionanalytics.com/local-r-groups.html">other successful R User Groups</a> and to this end we are aiming to have workshops and presentations both by members and invited guests. So, if you live in or around Edmonton and are an R aficionado (or wannabe) we encourage you to join us. Although we are just starting up this is a great opportunity  to engage in discussions about what the Edmonton R User Group should do and how it can best serve its members and the R community at large. Hope to see you there.
 
-<img class="alignnone size-full wp-image-835" title="Slide1" alt="" src="/img/post_images/ERUG_dog.jpg">
+<img class="alignnone size-full wp-image-835" title="Slide1" alt="" src="{{ site.url }}/img/post_images/ERUG_dog.jpg">
