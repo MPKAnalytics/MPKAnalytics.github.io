@@ -6,14 +6,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-          <a class="brand" href="/"><img src="/img/logo.png" width=350 ></a>
+          <a class="brand" href="/"><img src="/img/logo.png" width=300 ></a>
           <div class="nav-collapse collapse pull-right">
-            <ul class="nav">
-              {% for link in site.links %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-	          {% endfor %}
+            <ul class="nav nav-tabs">
+              
+	          
+	          <!-- Services drop down -->
+	          <li class="dropdown">
+	            <a data-toggle="dropdown" href="#">Services<b> ▾</b></a>
+                <ul class="dropdown-menu">
+                  <a href="/consulting_academia/">Academia</a>
+                  <a href="/consulting_industry/">Industry</a>
+                </ul>
+              </li>
+              
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/about/">About Us</a></li>
+              <li><a href="/contact/">Contact Us</a></li>
+            
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+    
